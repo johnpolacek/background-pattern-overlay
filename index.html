@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Background Pattern Overlay Demo</title>
+    <style type="text/css">
+		body { margin: 0; padding: 0; }
+		.background-colors { position: absolute; top: 0; width: 100%; height: 100%; overflow: hidden; }
+		.bg-strip { width: 21%; height: 100%; position: absolute;  }
+		.bg-1 { left: 0; background: #3c3338; background-image:url("texture-dark.png");}
+		.bg-2 { left: 20%; background: #7a2f45; background-image:url("texture-dark.png"); }
+		.bg-3 { left: 40%; background: #bc2a51; background-image:url("texture-dark.png"); }
+		.bg-4 { left: 60%; background: #b75d3d; background-image:url("texture-dark.png"); }
+		.bg-5 { left: 80%; background: #b28f25; background-image:url("texture-dark.png"); }
+		h1 { text-align: center; padding-top: 20%; opacity: .75; color: #000; font-size: 50px; text-shadow: 0 1px 1px rgba(255,255,255,.5); }
+	</style>
+</head>
+<body>
+	<div class="background-colors">
+		<div class="bg-strip bg-1"></div>
+		<div class="bg-strip bg-2"></div>
+		<div class="bg-strip bg-3"></div>
+		<div class="bg-strip bg-4"></div>
+		<div class="bg-strip bg-5"></div>
+	</div>
+	<h1>BACKGROUND PATTERN OVERLAY</h1>
+</body>
+</html>
